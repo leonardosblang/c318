@@ -1,0 +1,31 @@
+{
+    "datetime": "2023-12-06 22:17:38",
+    "model_name": "anything-v4.5",
+    "model_hash": "fbcf965a62",
+    "num_of_dataset_images": 60,
+    "layer_structure": [
+        1.0,
+        2.0,
+        1.0
+    ],
+    "activation_func": "linear",
+    "weight_init": "Normal",
+    "add_layer_norm": false,
+    "use_dropout": false,
+    "hypernetwork_name": "modelo_1",
+    "learn_rate": "0.00005",
+    "batch_size": 1,
+    "gradient_step": 1,
+    "data_root": "C:\\Users\\Leonardo\\Downloads\\treinamento\\treinamento\\2",
+    "log_directory": "C:\\Users\\Leonardo\\Downloads\\treinamento\\treinamento\\logs\\2023-12-06\\modelo_1",
+    "training_width": 512,
+    "training_height": 512,
+    "steps": 2000,
+    "clip_grad_mode": "disabled",
+    "clip_grad_value": "0.1",
+    "latent_sampling_method": "once",
+    "create_image_every": 100,
+    "save_hypernetwork_every": 100,
+    "template_file": "F:\\AI\\stable-diffusion-webui\\stable-diffusion-webui\\stable-diffusion-webui\\stable-diffusion-webui\\textual_inversion_templates\\style_filewords.txt",
+    "initial_step": 0
+}
